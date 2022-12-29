@@ -1,0 +1,114 @@
+body {
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+[class*="__container"] {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+
+.page__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	margin-bottom: 40px;
+}
+
+.page__main-text {
+	line-height: 25.6px;
+	margin-bottom: 48px;
+}
+
+.sub-title {
+	line-height: 42px;
+	margin-bottom: 24px;
+	font-size: 28px;
+}
+
+.page__list {
+	margin-bottom: 190px;
+}
+
+.page__list-item {
+	line-height: 25.6px;
+}
+
+
+
+.text__footnote {
+	text-transform: uppercase;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+
+.text__title {
+	line-height: 59.6 px;
+	font-size: 46px;
+	font-weight: 900;
+	margin-bottom: 16px;
+}
+
+.text__sub-title {
+	line-height: 30px;
+	margin-bottom: 32px;
+}
+
+.text__list {
+	margin-bottom: 32px;
+}
+
+.text__list-item {
+	line-height: 25.6px;
+
+}
+
+.text__blockquote {
+	line-height: 25.6px;
+}
+
+.page__list li::before {
+	background: url('../img/Vector1.png') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.text__list li:nth-child(1)::before {
+	background: url('../img/Star.png') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.text__list li:nth-child(2)::before {
+	background: url('../img/Play.png') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+.text__list li:nth-child(3)::before {
+	background: url('../img/Vector.png') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.text__list li::before {
+	transition: all 0.8s ease 0s;
+}
+
+.text__list li:hover::before {
+	transform: rotate(180deg);
+}
